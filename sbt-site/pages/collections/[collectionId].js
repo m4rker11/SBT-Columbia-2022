@@ -11,16 +11,16 @@ import { HiDotsVertical } from 'react-icons/hi'
 import NFTCard from '../../components/NFTCard'
 
 const style = {
-  bannerImageContainer: `h-[20vh] w-screen overflow-hidden flex justify-center items-center`,
+  bannerImageContainer: `h-[35vh] w-screen overflow-hidden flex justify-center items-center`,
   bannerImage: `w-full object-cover`,
   infoContainer: `w-screen px-4`,
   midRow: `w-full flex justify-center text-white`,
   endRow: `w-full flex justify-end text-white`,
   profileImg: `w-40 h-40 object-cover rounded-full border-2 border-[#202225] mt-[-4rem]`,
-  socialIconsContainer: `flex text-3xl mb-[-2rem]`,
-  socialIconsWrapper: `w-44`,
-  socialIconsContent: `flex container justify-between text-[1.4rem] border-2 rounded-lg px-2`,
-  socialIcon: `my-2`,
+  // socialIconsContainer: `flex text-3xl mb-[-2rem]`,
+  // socialIconsWrapper: `w-44`,
+  // socialIconsContent: `flex container justify-between text-[1.4rem] border-2 rounded-lg px-2`,
+  // socialIcon: `my-2`,
   divider: `border-r-2`,
   title: `text-5xl font-bold mb-4`,
   createdBy: `text-lg mb-4`,
@@ -35,13 +35,13 @@ const style = {
 const Collection = () => {
   const router = useRouter()
   const { provider } = useWeb3()
-  const { collectionId } = router.query
+  let { collectionId } = router.query
   const [collection, setCollection] = useState({})
   const [nfts, setNfts] = useState([])
   const [listings, setListings] = useState([])
 
   //
-
+  collectionId = "0xfd58fD1C9aC97224931EB17B5c1ae4c0904DA43B"
   const nftModule = useMemo(() => {
     if (!provider) return
 
@@ -55,9 +55,9 @@ const Collection = () => {
   // get all NFTs in the collection
   useEffect(() => {
     if (!nftModule) return
-    ;(async () => {
+    (async () => {
       const nfts = await nftModule.getAll()
-
+      console.log(":gettingNfts")
       setNfts(nfts)
     })()
   }, [nftModule])
@@ -83,7 +83,7 @@ const Collection = () => {
   }, [marketPlaceModule])
 
   const fetchCollectionData = async (sanityClient = client, collectionId = collectionId) => {
-    const query = `*[_type == "marketItems" && contractAddress == "${collectionId}" ] {
+    const query = `*[_type == "marketItems"] {
       "imageUrl": profileImage.asset->url,
       "bannerImageUrl": bannerImage.asset->url,
       volumeTraded,
@@ -111,8 +111,9 @@ const Collection = () => {
     fetchCollectionData()
   }, [collectionId])
 
-  console.log(router.query)
-  console.log(router.query.collectionId)
+  console.log(collection, '🔥')
+  console.log(nfts, '🔥')
+  // console.log(router.query.collectionId)
   return (
     <div className="overflow-hidden">
       <Header />
@@ -139,7 +140,7 @@ const Collection = () => {
             alt="profile image"
           />
         </div>
-        <div className={style.endRow}>
+        {/* <div className={style.endRow}>
           <div className={style.socialIconsContainer}>
             <div className={style.socialIconsWrapper}>
               <div className={style.socialIconsContent}>
@@ -160,8 +161,8 @@ const Collection = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </div> 
+        </div> */}
         <div className={style.midRow}>
           <div className={style.title}>{collection?.title}</div>
         </div>
@@ -186,7 +187,7 @@ const Collection = () => {
             <div className={style.collectionStat}>
               <div className={style.statValue}>
                 <img
-                  src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
+                  src="https://matic.supply/static/media/logo.57d8ffc7.svg"
                   alt="eth"
                   className={style.ethLogo}
                 />
@@ -197,7 +198,7 @@ const Collection = () => {
             <div className={style.collectionStat}>
               <div className={style.statValue}>
                 <img
-                  src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
+                  src="https://matic.supply/static/media/logo.57d8ffc7.svg"
                   alt="eth"
                   className={style.ethLogo}
                 />

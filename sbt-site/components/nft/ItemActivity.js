@@ -12,7 +12,7 @@ const style = {
   titleRight: `text-xl`,
   filter: `flex items-center border border-[#151b22] mx-4 my-6 px-3 py-4 rounded-xl bg-[#363840]`,
   filterTitle: `flex-1`,
-  tableHeader: `flex w-full bg-[#262b2f] border-y border-[#151b22] mt-8 px-4 py-1`,
+  tableHeader: `flex w-full bg-[#262b2f] border-y border-[#151b22] mt-0 px-4 py-1`,
   eventItem: `flex px-4`,
   ethLogo: `h-5 mr-2`,
   accent: `text-[#2081e2]`,
@@ -27,21 +27,14 @@ const ItemActivity = () => {
           <span className={style.titleIcon}>
             <CgArrowsExchangeV />
           </span>
-          Item Activity
+          About Item
         </div>
-        <div className={style.titleRight}>
+        {/* <div className={style.titleRight}>
           {toggle ? <AiOutlineUp /> : <AiOutlineDown />}
-        </div>
+        </div> */}
       </div>
       {toggle && (
         <div className={style.activityTable}>
-          <div className={style.filter}>
-            <div className={style.filterTitle}>Filter</div>
-            <div className={style.filterIcon}>
-              {' '}
-              <AiOutlineDown />{' '}
-            </div>
-          </div>
           <div className={style.tableHeader}>
             <div className={`${style.tableHeaderElement} flex-[2]`}>Event</div>
             <div className={`${style.tableHeaderElement} flex-[2]`}>Price</div>

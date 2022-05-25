@@ -1,26 +1,8 @@
 export const dummyEvents = [
   {
-    price: 17,
-    from: '0xQazi',
-    to: '0xDavid',
-    date: '4 months ago',
-  },
-  {
-    price: 17,
-    from: '0xQazi',
-    to: '0xDavid',
-    date: '4 months ago',
-  },
-  {
-    price: 17,
-    from: '0xQazi',
-    to: '0xDavid',
-    date: '4 months ago',
-  },
-  {
-    price: 17,
-    from: '0xQazi',
-    to: '0xDavid',
-    date: '4 months ago',
-  },
+    price: "Free with BootCamp",
+    from: 'Team 4',
+    to: 'All of Us',
+    date: 'Midnight June 1st',
+  }
 ]

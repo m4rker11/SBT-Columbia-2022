@@ -15,6 +15,7 @@ const style = {
 
 export default function Home() {
   const { address, connectWallet } = useWeb3()
+  console.log(address)
 
   const welcomeUser = (userName, toastHandler = toast) => {
     toastHandler.success(
@@ -54,6 +55,38 @@ export default function Home() {
         </>
       ) : (
         <div className={style.walletConnectWrapper}>
+          <button
+            className={style.button}
+            onClick={
+              async () =>{try { await window.ethereum.request({ method: 'wallet_addEthereumChain',
+                params: [{
+                            chainId: '0x89',
+                            chainName: 'Matic Mainnet',
+                            nativeCurrency: {
+                                name: 'MATIC',
+                                symbol: 'MATIC',
+                                decimals: 18
+                            },
+                            rpcUrls: ['https://polygon-rpc.com/'],
+                            blockExplorerUrls: ['https://polygonscan.com/']
+                        }]});
+              } catch (e) {
+                toast.error(
+                  `Please install MetaMask and try again.`,
+                  {})
+              }
+
+
+              }}
+          >
+            Add Mumbai
+          </button>
+          
+          <div className={style.details}>
+            OR
+          </div>
+          <div className={style.details}>
+          </div>
           <button
             className={style.button}
             onClick={() => connectWallet('injected')}

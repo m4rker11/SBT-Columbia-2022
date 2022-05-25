@@ -14,8 +14,8 @@ const style = {
   likes: `flex items-center text-[#8a939b]`,
   likeIcon: `mr-1`,
   actionButtonsContainer: `w-44`,
-  actionButtons: `flex container justify-between text-[1.4rem] border-2 rounded-lg`,
-  actionButton: `my-2`,
+  // actionButtons: `flex container justify-between text-[1.4rem] border-2 rounded-lg`,
+  // actionButton: `my-2`,
   divider: `border-r-2`,
 }
 
@@ -35,7 +35,7 @@ const GeneralDetails = ({ selectedNft }) => {
         </div>
       </div>
       <div className={style.actionButtonsContainer}>
-        <div className={style.actionButtons}>
+        {/* <div className={style.actionButtons}>
           <div className={`${style.actionButton} ml-2`}>
             <MdRefresh />
           </div>
@@ -50,8 +50,8 @@ const GeneralDetails = ({ selectedNft }) => {
           <div className={style.divider} />
           <div className={`${style.actionButton} mr-2`}>
             <FiMoreVertical />
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
     </div>
   )

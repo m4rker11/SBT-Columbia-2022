@@ -21,11 +21,11 @@ const EventItem = ({ event }) => {
         <div className={style.eventName}>Sale</div>
       </div>
       <div className={`${style.eventPrice} flex-[2]`}>
-        <img
-          src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg"
+        {/* <img
+          src="https://matic.supply/static/media/logo.57d8ffc7.svg"
           alt="eth"
           className={style.ethLogo}
-        />
+        /> */}
         <div className={style.eventPriceValue}>{event.price}</div>
       </div>
       <div className={`${style.accent} flex-[3]`}>{event.from}</div>

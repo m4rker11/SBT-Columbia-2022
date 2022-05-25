@@ -53,7 +53,7 @@ const Nft = () => {
     )
 
     return sdk.getMarketplaceModule(
-      '0xfd58fD1C9aC97224931EB17B5c1ae4c0904DA43B'
+      '0xee0a517DA86E5E13b7BbcD36BB752D499C0eF06F'
     )
   }, [provider])
 
@@ -75,12 +75,12 @@ const Nft = () => {
             </div>
             <div className={style.detailsContainer}>
               <GeneralDetails selectedNft={selectedNft} />
-              <Purchase
+              {/* <Purchase
                 isListed={router.query.isListed}
                 selectedNft={selectedNft}
                 listings={listings}
                 marketPlaceModule={marketPlaceModule}
-              />
+              /> */}
             </div>
           </div>
           <ItemActivity />

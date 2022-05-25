@@ -5,7 +5,7 @@ import openseaLogo from '../assets/opensea.png'
 import { AiOutlineSearch } from 'react-icons/ai'
 import { CgProfile } from 'react-icons/cg'
 import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
-
+import toast, { Toaster } from 'react-hot-toast'
 const style = {
   wrapper: `bg-[#04111d] w-screen px-[1.2rem] py-[0.8rem] flex `,
   logoContainer: `flex items-center cursor-pointer`,
@@ -21,10 +21,11 @@ const style = {
 const Header = () => {
   return (
     <div className={style.wrapper}>
+      <Toaster position="top-center" reverseOrder={false} />
       <Link href="/">
         <div className={style.logoContainer}>
           <Image src={openseaLogo} height={40} width={40} />
-          <div className={style.logoText}>Opensea</div>
+          <div className={style.logoText}>Columbia Fintech SBT</div>
         </div>
       </Link>
       <div className={style.searchBar}>
@@ -33,21 +34,30 @@ const Header = () => {
         </div>
         <input
           className={style.searchInput}
-          placeholder="Search items, collections, and accounts"
+          placeholder="Bold of you to think I implemented search functionality"
         />
       </div>
       <div className={style.headerItems}>
-        <Link href="/collections/0xee0a517DA86E5E13b7BbcD36BB752D499C0eF06F">
-          <div className={style.headerItem}> Collections </div>
+        <Link href="/collections/0xfd58fD1C9aC97224931EB17B5c1ae4c0904DA43B">
+          <div className={style.headerItem}> The Collection </div>
         </Link>
-        <div className={style.headerItem}> Stats </div>
-        <div className={style.headerItem}> Resources </div>
-        <div className={style.headerItem}> Create </div>
-        <div className={style.headerIcon}>
+        <button onClick={() => toast.success(`This is limited time so this \nsite will self destruct in\n${
+          //days, hours and minutes until june 1st 2022
+          parseInt((new Date(2022, 5, 2) - new Date()) / (1000 * 60 * 60 * 24))
+        } days and ${
+          parseInt((new Date(2022, 5, 2).getTime() - new Date().getTime()) / 1000 / 60 / 60%24)
+        } hours and ${
+          parseInt((new Date(2022, 5, 2).getTime() - new Date().getTime()) / 1000 / 60 % 60)
+        } minutes`, {duration:4000})}>
+        <div className={style.headerItem}> SelfDestruct </div>
+        </button>
+        {/* <div className={style.headerItem}> Resources </div>
+        <div className={style.headerItem}> Create </div> */}
+        {/* <div className={style.headerIcon}>
           <CgProfile />
-        </div>
+        </div> */}
         <div className={style.headerIcon}>
-          <MdOutlineAccountBalanceWallet />
+          <MdOutlineAccountBalanceWallet />         
         </div>
       </div>
     </div>
