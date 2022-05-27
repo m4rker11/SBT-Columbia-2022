@@ -1,0 +1,27 @@
+{
+    "name": "Rich Strike",
+    "description": "Kentucky Derby winner Rich Strike returned to the Churchill Downs work tab with a swift half-mile move in 47.2 seconds in preparation for the $1.5 million Belmont Stakes The 80-1 upset winner of this year’s $3 million Kentucky Derby presented by Woodford Reserve breezed with rider Gabe Lagunes in the saddle through an opening quarter-mile fraction of 22.8 seconds and galloped out five furlongs in 1:00.6.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWwTzUUV4wdkGW15Jwkn48kxzUZn3EDT1nqu3QSy4pUrd/12.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Caramel"
+        },
+        {
+            "trait_type":"Year",
+            "value": "2022"
+        },
+        {
+            "trait_type": "Number",
+            "value": "21"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Sonny Leon"
+        }
+    ] 
+}

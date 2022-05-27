@@ -1,0 +1,27 @@
+{
+    "name": "Mark the Horse Whisperer",
+    "description": "A friendly OpenSea first NFT!",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWwTzUUV4wdkGW15Jwkn48kxzUZn3EDT1nqu3QSy4pUrd/1.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Brunette"
+        },
+        {
+            "trait_type":"Year",
+            "value": "2024"
+        },
+        {
+            "trait_type": "Number",
+            "value": "1"
+        },
+        {
+            "trait_type": "Base",
+            "value": "No-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Mark"
+        }
+    ]
+}

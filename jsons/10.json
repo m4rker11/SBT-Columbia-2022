@@ -1,0 +1,27 @@
+{
+    "name": "Nyquist",
+    "description": "No story sorry...",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWwTzUUV4wdkGW15Jwkn48kxzUZn3EDT1nqu3QSy4pUrd/10.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Ash Brown"
+        },
+        {
+            "trait_type":"Year",
+            "value": "2016"
+        },
+        {
+            "trait_type": "Number",
+            "value": "4"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Mario Gutierrez"
+        }
+    ] 
+}
