@@ -1,0 +1,27 @@
+{
+    "name": "Country House",
+    "description": "Country House has faced several of his Kentucky Derby (G1) rivals in his past three races. The Bill Mott-trained son of Lookin at Lucky broke his maiden at Gulfstream Park in January and made his stakes debut in the Risen Star Stakes (G2) at Fair Grounds. Following a runner-up effort in that contest, Country House ran fourth in the Louisiana Derby (G2) in New Orleans and then shipped to Oaklawn Park for a third-place effort in the Arkansas Derby (G1).",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWwTzUUV4wdkGW15Jwkn48kxzUZn3EDT1nqu3QSy4pUrd/6.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Russet"
+        },
+        {
+            "trait_type":"Year",
+            "value": "2019"
+        },
+        {
+            "trait_type": "Number",
+            "value": "20"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Flavien Prat"
+        }
+    ] 
+}

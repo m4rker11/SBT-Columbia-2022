@@ -1,0 +1,27 @@
+{
+    "name": "Mandaloun",
+    "description": "Mandaloun is a bay colt by Into Mischief and out of Brooch, who is by Empire Maker. A strong family pedigree and led by even more talent with his human connections. Conditioner Brad Cox and jockey Florent Geroux lead the Juddmonte Farms, Inc. Kentucky Derby hopeful's path towards his start on the First Saturday in May. Mandaloun won his first start in October at Keeneland and a month later, won at Churchill Downs in November. His Derby trail began in January 2021 with a third in the Lecomte at Fair Grounds, but returned in the Risen Star to hit the wire first.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWwTzUUV4wdkGW15Jwkn48kxzUZn3EDT1nqu3QSy4pUrd/9.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Caramel"
+        },
+        {
+            "trait_type":"Year",
+            "value": "2021"
+        },
+        {
+            "trait_type": "Number",
+            "value": "10"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Florent Geroux"
+        }
+    ] 
+}
