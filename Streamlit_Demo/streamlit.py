@@ -1,8 +1,9 @@
 import streamlit as st
 import glob 
 from PIL import Image
-
+import json
 # Creating image list from source for streamlit
+
 
 image_list = []
 for filename in glob.glob('WAAWImages1/*.png'): #assuming png
@@ -17,22 +18,48 @@ with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # Data
+horses = ['American Dreaming 2017', 'American Pharoah 2015', 'Authentic 2020', 'California Chrome 2014', 'Country Horse 2019', 'Ill Have Another 2012', 'Justify 2018', 'Mandoloun 2021', 'Nyquist 2016', 'Orb 2013', 'Rich Strike 2022']
 
 st.title("Our group")
-st.markdown("# Page Title")
 st.markdown("### Subdescription")
 st.text(" \n")
 
 
+url = "https://docs.streamlit.io/library/api-reference/text/st.markdown"
+
+st.sidebar.markdown("# Available Horses for token")
+
+st.sidebar.markdown("## Select your Horse") 
+st.sidebar.write("")
+st.sidebar.write("")
+st.sidebar.write("")
+
+st.sidebar.selectbox('Select a Horse', horses)
+
+st.sidebar.write("")
+st.sidebar.write("")
+st.sidebar.write("")
+st.sidebar.write("")
+st.sidebar.write("")
+
+st.sidebar.markdown("Complete Your Purchase")
+
+if st.sidebar.button(label = 'PURCHASE'):
+    st.sidebar.markdown(url, unsafe_allow_html=True)
+else:
+        st.sidebar.write("HAPPY HORSIN' AROUND")
+
 # Team logo
 url = "https://docs.streamlit.io/library/api-reference/text/st.markdown"
 
+st.image('banner.png', width =1450)
+
 # Row A
 a1, a2, a3, a4, a5 = st.columns(5)
-a1.image(Image.open('Always Dreaming 2017.png'), caption = 'Always Dreaming 2017')
+a1.image(Image.open('WAAWImages1/Always Dreaming 2017.png'), caption = 'Always Dreaming 2017')
 a1.write("With possibly up to six starters, leading trainer Todd Pletcher won't lack for quantity in this year's Kentucky Derby. Always Dreaming's Florida Derby (G1) victory showed he has no lack of quality either. Winless in two summer juvenile starts, Always Dreaming returned to racing as a 3-year-old with an 11-1/2 length maiden victory at Tampa Bay Downs Jan. 25. With that and a March 4 Gulfstream Park allowance victory behind the horse, Pletcher decided to send him to the Florida Derby April 1. He handled the step up in class with ease, racing outside the leader Three Rules before sprinting away to a five length victory over State of Honor and Gunnevera. Bred by Santa Rosa Partners, Always Dreaming was a $350,000 purchase at the 2015 Keeneland September yearling sale for agent Steven Young. His owners include Brooklyn Boyz Stables, MeB Racing Stable, Teresa and Vinnie Viola, West Point Thoroughbreds, and Siena Farm. Always Dreaming is from the first crop of Bodemeister, runner-up to I'll Have Another in the 2012 Kentucky Derby. He is out of the grade III-winning In Excess mare Above Perfection, whose other progeny include the Spinaway Stakes (G1) winner Hot Dixie Chick.")
 a1.write("Value : 10 ETH")
-a1.markdown(url, unsafe_allow_html=True)
+
 
 a2.image(Image.open('American Pharoah 2015.png'), caption = 'American Pharoah 2015')
 a2.write("American Pharoah has won the 141st Kentucky Derby before a record-setting crowd at Churchill Downs.Victor Espinoza was aboard for this second straight Derby win, and third overall.The 5-2 favorite was in contention at the top of the stretch Saturday and pulled clear at the finish for his fifth win in six starts.Hall of Fame trainer Bob Baffert got his fourth Derby win, and also sent out third-place finisher Dortmund. Firing Line was second. The time was 2:03.02 for the 1 1/4 miles. The largest Derby crowd ever - 170,513 - looked on under sunny skies.")
