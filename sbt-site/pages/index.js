@@ -68,14 +68,14 @@ export default function Home() {
             onClick={
               async () =>{try { await window.ethereum.request({ method: 'wallet_addEthereumChain',
                 params: [{
-                            chainId: '0x89',
-                            chainName: 'Matic Mainnet',
+                            chainId: '0x13881',
+                            chainName: 'Mumbai Testnet',
                             nativeCurrency: {
                                 name: 'MATIC',
                                 symbol: 'MATIC',
                                 decimals: 18
                             },
-                            rpcUrls: ['https://polygon-rpc.com/'],
+                            rpcUrls: [' https://rpc-mumbai.maticvigil.com'],
                             blockExplorerUrls: ['https://polygonscan.com/']
                         }]});
               } catch (e) {
