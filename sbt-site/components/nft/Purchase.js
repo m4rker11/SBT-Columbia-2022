@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { HiTag } from 'react-icons/hi'
 import { IoMdWallet } from 'react-icons/io'
 import toast, { Toaster } from 'react-hot-toast'
-
+import { useRouter } from "next/router";
 const style = {
   button: `mr-8 flex items-center py-2 px-12 rounded-lg cursor-pointer`,
   buttonIcon: `text-xl`,
@@ -13,16 +13,10 @@ const style = {
 const MakeOffer = ({ isListed, selectedNft, listings, marketPlaceModule }) => {
   const [selectedMarketNft, setSelectedMarketNft] = useState()
   const [enableButton, setEnableButton] = useState(false)
-
-  useEffect(() => {
-    if (!listings || isListed === 'false') return
-    ;(async () => {
-      setSelectedMarketNft(
-        listings.find((marketNft) => marketNft.asset?.id === selectedNft.id)
-      )
-    })()
-  }, [selectedNft, listings, isListed])
-
+  // get nft id from url
+  const nftId = useRouter().query.nftId
+  console.log(nftId)
+  selectedMarketNft
   useEffect(() => {
     if (!selectedMarketNft || !selectedNft) return
 
@@ -37,18 +31,39 @@ const MakeOffer = ({ isListed, selectedNft, listings, marketPlaceModule }) => {
         color: '#fff',
       },
     })
+    
 
   const buyItem = async (
-    listingId = selectedMarketNft.id,
+    listingId = nftId,
     quantityDesired = 1,
     module = marketPlaceModule
   ) => {
+
+    
+
+    // beginPurchase()
     console.log(listingId, quantityDesired, module)
     let address = window.ethereum.selectedAddress
     console.log(address)
     console.log(listingId, quantityDesired, module)
-    // module.sdk._providerOrSigner._address = address
-    await module.transfer(address, listingId, quantityDesired)
+    // module.sdk._providerOrSigner._address = address]
+
+    toast.promise(module.transfer(address, listingId, quantityDesired), {
+      loading: '`Transaction is being signed, please wait...',
+      success: 'Your SBT has been sent to your wallet, you can transfer it until the end of the day to the desired location',
+      error: 'This SBT has already been claimed, please ick another one ~~HURRY~~',
+    });
+    // try {
+    //   await module.transfer(address, listingId, quantityDesired)
+    //   confirmPurchase()}
+    // catch(e) {
+    //   toast.error(`Transaction failed, please try again.`, {
+    //     style: {
+    //       background: '#04111d',
+    //       color: '#fff',
+    //     },
+    //   })
+    // }
     
     
     // await module
@@ -57,8 +72,6 @@ const MakeOffer = ({ isListed, selectedNft, listings, marketPlaceModule }) => {
     //     quantityDesired: quantityDesired,
     //   })
     //   .catch((error) => console.error(error))
-
-    confirmPurchase()
     return true
   }
 
@@ -71,13 +84,15 @@ const MakeOffer = ({ isListed, selectedNft, listings, marketPlaceModule }) => {
             onClick={() => {
               //get id from query string
               // let id = window.location.search.split('/')[4].split('?')[0]
-              buyItem(1, 1, marketPlaceModule)
+              buyItem(nftId, 1, marketPlaceModule)
             }}
             className={`${style.button} bg-[#2081e2] hover:bg-[#42a0ff]`}
           >
-            <IoMdWallet className={style.buttonIcon} />
-            <div className={style.buttonText}>Buy Now</div>
+           <IoMdWallet className={style.buttonIcon} />
+            <div className={style.buttonText}>Claim</div>
+            
           </div>
+          Don't click twice
         </>
       {/* ) : (
         <div className={`${style.button} bg-[#2081e2] hover:bg-[#42a0ff]`}>
