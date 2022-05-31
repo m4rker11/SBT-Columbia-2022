@@ -1164,7 +1164,7 @@
   "resolved" "https://registry.npmjs.org/@sanity/cli/-/cli-2.30.0.tgz"
   "version" "2.30.0"
 
-"@sanity/client@^2.0.0", "@sanity/client@2.23.2":
+"@sanity/client@^2.0.0", "@sanity/client@^2.23.2", "@sanity/client@2.23.2":
   "integrity" "sha512-t0IbBYTLAWs5U3bi0pCcIcaQay6IakS+EVSoX6/zcGoEEgxj1KdLWx7ozXMPj9O/IGztRRifyNEWLkclazmqyQ=="
   "resolved" "https://registry.npmjs.org/@sanity/client/-/client-2.23.2.tgz"
   "version" "2.23.2"
@@ -3540,7 +3540,7 @@
     "mimic-response" "^1.0.0"
 
 "deep-assign@^2.0.0":
-  "integrity" "sha1-6+BrHwfwja5ZdiDj3RYi83GhxXI="
+  "integrity" "sha512-2QhG3Kxulu4XIF3WL5C5x0sc/S17JLgm1SfvDfIRsR/5m7ZGmcejII7fZ2RyWhN0UWIJm0TNM/eKow6LAn3evQ=="
   "resolved" "https://registry.npmjs.org/deep-assign/-/deep-assign-2.0.0.tgz"
   "version" "2.0.0"
   dependencies:
@@ -5289,7 +5289,7 @@
   "version" "7.0.0"
 
 "is-obj@^1.0.0":
-  "integrity" "sha1-PkcprB9f3gJc19g6iW2rn09n2w8="
+  "integrity" "sha512-l4RyHgRqGN4Y3+9JHVrNqO+tN0rV5My76uW5/nuO4K1b6vw5G8d/cmFjP9tRfEsdhZNt0IFdZuK/c2Vr4Nb+Qg=="
   "resolved" "https://registry.npmjs.org/is-obj/-/is-obj-1.0.1.tgz"
   "version" "1.0.1"
 
