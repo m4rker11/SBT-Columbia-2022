@@ -24,9 +24,10 @@ const Hero = () => {
         <div className={style.contentWrapper}>
           <div className={style.copyContainer}>
             <div className={style.title}>
-              Discover, collect, and sell extraordinary NFTs
+              CONGRAGULATIONS! We did it. 
             </div>
             <div className={style.description}>
+              We are now done with this bootcamp
               OpenSea is the world&apos;s first and largest NFT marketplace
             </div>
             <div className={style.ctaContainer}>
