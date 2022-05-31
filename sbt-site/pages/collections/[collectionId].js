@@ -2,14 +2,22 @@ import React, { useEffect, useState, useMemo } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import { useWeb3 } from '@3rdweb/hooks'
-import { client } from '../../lib/sanityClient'
+// import { client } from '../../lib/sanityClient'
 import { ThirdwebSDK } from '@3rdweb/sdk'
 import Header from '../../components/Header'
 import { CgWebsite } from 'react-icons/cg'
 import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai'
 import { HiDotsVertical } from 'react-icons/hi'
 import NFTCard from '../../components/NFTCard'
-
+import sanityClient from '@sanity/client'
+const client = sanityClient({
+  projectId: '56wynask',
+  dataset: 'production',
+  apiVersion: '2021-03-25',
+  token:
+    'skDhgc6KBzOJCn9zEzleh2KFEboQztHUkJXb6z52suRnzZyMLZ3JLMAMNbK8yeIpzaXaNQ9tUMXEuWhVlK9Sdu06Hfh0pMingV8HV61cojpBphnt7wl9cx2ndxtGywYIBhVgu0K1OMYA0KzacZdc5JvF2rkKPjPpWsyyQh2GQnpOtTIoOYEQ',  
+  useCdn: false,
+})
 const style = {
   bannerImageContainer: `h-[35vh] w-screen overflow-hidden flex justify-center items-center`,
   bannerImage: `w-full object-cover`,
