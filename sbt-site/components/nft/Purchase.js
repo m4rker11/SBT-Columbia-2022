@@ -30,7 +30,8 @@ const MakeOffer = ({ isListed, selectedNft, listings, marketPlaceModule }) => {
   }, [selectedMarketNft, selectedNft])
 
   const confirmPurchase = (toastHandler = toast) =>
-    toastHandler.success(`Purchase successful!`, {
+    toastHandler.success(`Claim recieved, due to the SBT being free, you are not guaranteed to recieve the horse you selected,
+    The transaction is being signed externally and will go through by the end of the day.`, {
       style: {
         background: '#04111d',
         color: '#fff',
@@ -42,51 +43,48 @@ const MakeOffer = ({ isListed, selectedNft, listings, marketPlaceModule }) => {
     quantityDesired = 1,
     module = marketPlaceModule
   ) => {
-    console.log(listingId, quantityDesired, module, 'david')
-    // yo RAZA lets goooo!!!
-    //yo Qazi, ok
-    // sure okay about to run it...
-    // just clicked buy now...
-    // still error
-    // where can i see the contract address of the marketplace module
-    // in [nftId.js]
-    await module
-      .buyoutDirectListing({
-        listingId: listingId,
-        quantityDesired: quantityDesired,
-      })
-      .catch((error) => console.error(error))
+    console.log(listingId, quantityDesired, module)
+    let address = window.ethereum.selectedAddress
+    console.log(address)
+    console.log(listingId, quantityDesired, module)
+    // module.sdk._providerOrSigner._address = address
+    await module.transfer(address, listingId, quantityDesired)
+    
+    
+    // await module
+    //   .buyoutDirectListing({
+    //     listingId: listingId,
+    //     quantityDesired: quantityDesired,
+    //   })
+    //   .catch((error) => console.error(error))
 
     confirmPurchase()
+    return true
   }
 
   return (
     <div className="flex h-20 w-full items-center rounded-lg border border-[#151c22] bg-[#303339] px-12">
-      <Toaster position="bottom-left" reverseOrder={false} />
-      {isListed === 'true' ? (
+      {/* <Toaster position="bottom-left" reverseOrder={false} /> */}
+      {/* {isListed === 'true' ? ( */}
         <>
           <div
             onClick={() => {
-              enableButton ? buyItem(selectedMarketNft.id, 1) : null
+              //get id from query string
+              // let id = window.location.search.split('/')[4].split('?')[0]
+              buyItem(1, 1, marketPlaceModule)
             }}
             className={`${style.button} bg-[#2081e2] hover:bg-[#42a0ff]`}
           >
             <IoMdWallet className={style.buttonIcon} />
             <div className={style.buttonText}>Buy Now</div>
           </div>
-          <div
-            className={`${style.button} border border-[#151c22]  bg-[#363840] hover:bg-[#4c505c]`}
-          >
-            <HiTag className={style.buttonIcon} />
-            <div className={style.buttonText}>Make Offer</div>
-          </div>
         </>
-      ) : (
+      {/* ) : (
         <div className={`${style.button} bg-[#2081e2] hover:bg-[#42a0ff]`}>
           <IoMdWallet className={style.buttonIcon} />
           <div className={style.buttonText}>List Item</div>
         </div>
-      )}
+      )} */}
     </div>
   )
 }

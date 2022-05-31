@@ -1,7 +1,12 @@
 {
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next -p 3002",
     "build": "next build",
     "start": "next start"
   },
@@ -10,6 +15,7 @@
     "@3rdweb/sdk": "^1.36.11",
     "@sanity/client": "^2.23.2",
     "@thirdweb-dev/sdk": "^2.2.19",
+    "destroy": "^1.2.0",
     "ethers": "^5.6.8",
     "next": "latest",
     "react": "^17.0.2",

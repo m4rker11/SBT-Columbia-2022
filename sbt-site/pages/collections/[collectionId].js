@@ -57,7 +57,7 @@ const Collection = () => {
     if (!nftModule) return
     (async () => {
       const nfts = await nftModule.getAll()
-      console.log(":gettingNfts")
+      console.log("gettingNfts")
       setNfts(nfts)
     })()
   }, [nftModule])
@@ -101,17 +101,18 @@ const Collection = () => {
 
     const collectionData = await sanityClient.fetch(query)
 
-    console.log(collectionData, '🔥')
+    
 
     // the query returns 1 object inside of an array
     await setCollection(collectionData[0])
+    console.log('collectionData', collectionData)
   }
 
   useEffect(() => {
     fetchCollectionData()
   }, [collectionId])
 
-  console.log(collection, '🔥')
+  // console.log(collection, '🔥')
   console.log(nfts, '🔥')
   // console.log(router.query.collectionId)
   return (
