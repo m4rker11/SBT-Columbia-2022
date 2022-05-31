@@ -1,0 +1,146 @@
+# Row E
+
+e1, e2, e3, e4, e5 = st.columns(5)
+e1.image(Image.open('We Are All Winners Images/Dust Commander 1970.png'), caption = 'Dust Commander 1970')
+e1.write("Hunter S. Thompson's seminal 1970 essay 'The Kentucky Derby is Decadent and Depraved' detailed the running of the Derby won by Dust Commander. The name 'Dust Commander' is derived from his dam, Dust Storm, and his sire, Bold Commander. A descendant of Nearco, Dust Commander was bred by the Pullen brothers. He was owned by Robert E. Lehmann and trained by Don Combs. His dam Dust Storm was descended from the American broodmare Laughing Queen who was also the female-line ancestor of Tom Fool.")
+e1.write("### Value : 5 ETH")
+e1.write("")
+
+e2.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+e2.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+e2.write("### Value : 5 ETH")
+e2.write("")
+
+
+e3.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+e3.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+e3.write("### Value : 5 ETH")
+e3.write("")
+
+e4.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+e4.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+e4.write("### Value : 5 ETH")
+e4.write("")
+
+e5.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+e5.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+e5.write("### Value : 5 ETH")
+e5.write("")
+
+# Row F
+
+f1, f2, f3, f4, f5 = st.columns(5)
+f1.image(Image.open('We Are All Winners Images/Rich Strike 2022.png'), caption = 'Rich Strike 2022')
+f1.write("Kentucky Derby winner Rich Strike returned to the Churchill Downs work tab with a swift half-mile move in 47.2 seconds in preparation for the $1.5 million Belmont Stakes. The 80-1 upset winner of this year's $3 million Kentucky Derby presented by Woodford Reserve breezed with rider Gabe Lagunes in the saddle through an opening quarter-mile fraction of 22.8 seconds and galloped out five furlongs in 1:00.6.")
+f1.write("### Value : 5 ETH")
+f1.write("")
+
+f2.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+f2.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+f2.write("### Value : 5 ETH")
+f2.write("")
+
+f3.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+f3.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+f3.write("### Value : 5 ETH")
+f3.write("")
+
+f4.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+f4.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+f4.write("### Value : 5 ETH")
+f4.write("")
+
+f5.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+f5.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+f5.write("### Value : 5 ETH")
+f5.write("")
+
+
+# Row G 
+
+g1, g2, g3, g4, g5 = st.columns(5)
+g1.image(Image.open('We Are All Winners Images/Rich Strike 2022.png'), caption = 'Rich Strike 2022')
+g1.write("Kentucky Derby winner Rich Strike returned to the Churchill Downs work tab with a swift half-mile move in 47.2 seconds in preparation for the $1.5 million Belmont Stakes. The 80-1 upset winner of this year's $3 million Kentucky Derby presented by Woodford Reserve breezed with rider Gabe Lagunes in the saddle through an opening quarter-mile fraction of 22.8 seconds and galloped out five furlongs in 1:00.6.")
+g1.write("### Value : 5 ETH")
+g1.write("")
+
+g2.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+g2.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+g2.write("### Value : 5 ETH")
+g2.write("")
+
+
+g3.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+g3.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+g3.write("### Value : 5 ETH")
+g3.write("")
+
+g4.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+g4.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+g4.write("### Value : 5 ETH")
+g4.write("")
+
+g4.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+g4.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+g4.write("### Value : 5 ETH")
+g4.write("")
+
+
+# Row H
+
+h1, h2, h3, h4, h5 = st.columns(5)
+h1.image(Image.open('We Are All Winners Images/Rich Strike 2022.png'), caption = 'Rich Strike 2022')
+h1.write("Kentucky Derby winner Rich Strike returned to the Churchill Downs work tab with a swift half-mile move in 47.2 seconds in preparation for the $1.5 million Belmont Stakes. The 80-1 upset winner of this year's $3 million Kentucky Derby presented by Woodford Reserve breezed with rider Gabe Lagunes in the saddle through an opening quarter-mile fraction of 22.8 seconds and galloped out five furlongs in 1:00.6.")
+h1.write("### Value : 5 ETH")
+h1.write("")
+
+h2.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+h2.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+h2.write("### Value : 5 ETH")
+h2.write("")
+
+
+h3.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+h3.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+h3.write("### Value : 5 ETH")
+h3.write("")
+
+h4.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+h4.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+h4.write("### Value : 5 ETH")
+h4.write("")
+
+h5.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+h5.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+h5.write("### Value : 5 ETH")
+h5.write("")
+
+
+# Row I
+
+i1, i2, i3, i4, i5 = st.columns(5)
+i1.image(Image.open('We Are All Winners Images/Rich Strike 2022.png'), caption = 'Rich Strike 2022')
+i1.write("Kentucky Derby winner Rich Strike returned to the Churchill Downs work tab with a swift half-mile move in 47.2 seconds in preparation for the $1.5 million Belmont Stakes. The 80-1 upset winner of this year's $3 million Kentucky Derby presented by Woodford Reserve breezed with rider Gabe Lagunes in the saddle through an opening quarter-mile fraction of 22.8 seconds and galloped out five furlongs in 1:00.6.")
+i1.write("### Value : 5 ETH")
+i1.write("")
+
+i2.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+i2.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+i2.write("### Value : 5 ETH")
+i2.write("")
+
+
+d2.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+d2.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+d2.write("### Value : 5 ETH")
+d2.write("")
+
+d2.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+d2.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+d2.write("### Value : 5 ETH")
+d2.write("")
+
+d2.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
+d2.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+d2.write("### Value : 5 ETH")
+d2.write("")
