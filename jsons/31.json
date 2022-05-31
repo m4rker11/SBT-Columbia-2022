@@ -1,0 +1,27 @@
+{
+    "name": "Regret",
+    "description": "Regret's victory brought an avalanche of newspaper coverage to Churchill Downs' signature race. Her victory against males was a turning point in elevating the race’s popularity nationwide, and since then the Kentucky Derby has enjoyed a prestige equal to any sporting event in the world. Regret was the first filly (female young horse) to win the Kentucky Derby against males colts. The race needed only a victory by Regret to create some more coast-to-coast publicity to really put it over. She did not fail us. Regret made the Kentucky Derby an American institution.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/31.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Chestnut"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1915"
+        },
+        {
+            "trait_type": "Number",
+            "value": "9"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Joe Notter"
+        }
+    ] 
+}

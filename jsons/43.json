@@ -1,0 +1,27 @@
+{
+    "name": "Spectacular Bid",
+    "description": "This horse was a champion throughout its 1978 two-year-old season, and it also won the 1979 Kentucky Derby, a race for three-year-old horses. Spectacular Bid's jockey, Ronnie Franklin, won the race in his Kentucky Derby debut. Spectacular Bid raced 30 times and won 26 of those races. He finished second twice, third once, and fourth in the other race. (He was a 2-year-old and didn’t like the slop at Monmouth Park.) That’s an 86.1% winning percentage, third only to Native Dancer and Man O’ War among the top tier of horses of the 20th century, according to the Blood-Horse magazine.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/43.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Umber"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1979"
+        },
+        {
+            "trait_type": "Number",
+            "value": "1"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Ronnie Franklin"
+        }
+    ] 
+}

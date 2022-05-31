@@ -1,0 +1,27 @@
+{
+    "name": "Lawrin",
+    "description": "Victory with Eddie Arcaro Star Jockey",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/20.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Walnut"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1938"
+        },
+        {
+            "trait_type": "Number",
+            "value": "1"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Ben A. Jones"
+        }
+    ] 
+}

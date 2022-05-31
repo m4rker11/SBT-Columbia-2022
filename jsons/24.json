@@ -1,0 +1,27 @@
+{
+    "name": "Monarchos",
+    "description": "In 2001, Monarchos won the Kentucky Derby. He was only the second horse, after Secretariat, to run the Derby in under 2:00",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/24.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Chocolate"
+        },
+        {
+            "trait_type":"Year",
+            "value": "2001"
+        },
+        {
+            "trait_type": "Number",
+            "value": "16"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Jorge Chavez"
+        }
+    ] 
+}

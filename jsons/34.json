@@ -1,0 +1,27 @@
+{
+    "name": "War Admiral",
+    "description": "War Admiral, (foaled 1934), American racehorse (Thoroughbred) who in 1937 became the fourth winner of the American Triple Crown—the Kentucky Derby, the Preakness Stakes, and the Belmont Stakes. His dramatic 1938 race against Seabiscuit, the leading money winner of 1937 and a fan favorite, captured the imagination of Americans during the Great Depression.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/34.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Chestnut"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1937"
+        },
+        {
+            "trait_type": "Number",
+            "value": "1"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Charle Kurtsinger"
+        }
+    ] 
+}

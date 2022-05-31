@@ -1,0 +1,27 @@
+{
+    "name": "Chateaugay",
+    "description": "Panamanian jockey Braulio Baeza won the Kentucky Derby in 1963 with winning horse Chateaugay, a horse from Lexington’s Darby Dan Farm. He was the first Latino jockey to win the Run for the Roses. When the gate opened, Never Bend quickly took the lead and by the 1⁄4 mile mark No Robbery had moved into second place along the inside rail with Candy Spots sitting third. After running in sixth place through the first three-quarters of a mile, coming out of the backstretch, Chateaugay moved to the far outside and raced into fourth place behind the three leaders.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/36.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Walnut"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1963"
+        },
+        {
+            "trait_type": "Number",
+            "value": "1"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Braulio Baeza"
+        }
+    ] 
+}

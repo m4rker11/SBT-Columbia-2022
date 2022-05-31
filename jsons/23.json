@@ -1,0 +1,27 @@
+{
+    "name": "Seattle Slew",
+    "description": "Seattle Slew won the Derby in 1977 but didn't stop there. This horse went on to win the Triple Crown and was the 10th horse to do so. At the time, Seattle Slew became the only undefeated Triple Crown winner. This horse's undefeated career has gone down in racing history as one of the most impressive of all.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/23.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Umber"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1977"
+        },
+        {
+            "trait_type": "Number",
+            "value": "3"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Jean Cruguet"
+        }
+    ] 
+}

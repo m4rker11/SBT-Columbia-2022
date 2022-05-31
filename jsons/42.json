@@ -1,0 +1,27 @@
+{
+    "name": "Barbaro",
+    "description": "Barbaro is known for one of the largest margins of victory at the Kentucky Derby– 6 ½ lengths: The horses that shared the fifth-largest winning margin had very different tales to tell. Barbaro started the Derby as second favorite and maintained his unbeaten record in the Run for the Roses with his outstanding victory. Unfortunately he shattered his leg in the Preakness, and despite a brave recovery battle, he developed hoof problems and had to be euthanized.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/42.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Walnut"
+        },
+        {
+            "trait_type":"Year",
+            "value": "2006"
+        },
+        {
+            "trait_type": "Number",
+            "value": "8"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Edgar Prado"
+        }
+    ] 
+}

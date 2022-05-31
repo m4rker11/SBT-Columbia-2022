@@ -1,0 +1,27 @@
+{
+    "name": "Aristides",
+    "description": "1875 was the first year of the Kentucky Derby. Oliver Lewis (1856-1924), the Black American jockey who rode the colt Aristides, won the first Kentucky Derby on May 17, 1875. His time of two minutes 37.75 seconds set an American record over the mile and a half distance, earning a purse of just $2,850. The winning thoroughbred was trained by renowned Black American trainer Ansel Williamson.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/28.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Umber"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1875"
+        },
+        {
+            "trait_type": "Number",
+            "value": "6"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Oliver Lewis"
+        }
+    ] 
+}

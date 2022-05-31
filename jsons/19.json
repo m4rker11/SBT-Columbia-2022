@@ -1,0 +1,27 @@
+{
+    "name": "Thunder Gulch",
+    "description": "Thunder Gulch captured the 1995 Kentucky Derby  as a 24-1 longshot over two favored stablemates and later won the Belmont Stakes en route to champion three-year-old honors. In addition to his two classic wins, Thunder Gulch also won the Florida Derby, Travers, Fountain of Youth, Swaps, and Kentucky Cup Classic in 1995. As a two-year-old, he captured the Remsen.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/19.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Caramel"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1995"
+        },
+        {
+            "trait_type": "Number",
+            "value": "11"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Gary Stevens"
+        }
+    ] 
+}

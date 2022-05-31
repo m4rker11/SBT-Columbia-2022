@@ -1,0 +1,27 @@
+{
+    "name": "Ponder",
+    "description": "The American Derby was perhaps his most shining performance. Victory came as it usually does to him. He let the pack take off in full cry, and when he got ready with his late run, nothing could stay in front of him. But this race he won in what may be called the hard way. He was, to all appearances, securely boxed in on the rail as the field rounded the far turn. But he seems to be an easy colt to handle during a race, and Jockey Steve Brooks was able to take him back and send him around the outside. Once clear, he took off with the rush that had gained the Kentucky Derby for him, and won by 2 1/4 lengths drawing away.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/30.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Walnut"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1949"
+        },
+        {
+            "trait_type": "Number",
+            "value": "1A"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Steve Brooks"
+        }
+    ] 
+}

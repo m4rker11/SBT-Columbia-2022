@@ -1,0 +1,27 @@
+{
+    "name": "Secretariat",
+    "description": "Probably the most recognizable name of all the horses that have participated in the Kentucky Derby, Secretariat won in 1973, which was the 99th running of the race. Secretariat is still a household name because this horse went on to win the Triple Crown and still holds the Derby record, completing the course in 1:59:40. Secretariat still holds the stakes records for all three of the Triple Crown races.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/21.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Maple"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1973"
+        },
+        {
+            "trait_type": "Number",
+            "value": "1A"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Ron Turcotte"
+        }
+    ] 
+}
