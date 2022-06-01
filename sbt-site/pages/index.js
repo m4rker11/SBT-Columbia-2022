@@ -23,7 +23,7 @@ const style = {
 
 export default function Home() {
   const { address, connectWallet } = useWeb3()
-  console.log(address)
+  // console.log(address)
 
   const welcomeUser = (userName, toastHandler = toast) => {
     toastHandler.success(

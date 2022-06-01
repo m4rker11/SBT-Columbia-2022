@@ -45,13 +45,14 @@ const Nft = () => {
     if (!nftModule) return
     ;(async () => {
       const nfts = await nftModule.getAll()
-
-      const selectedNftItem = nfts.find((nft) => nft.id === router.query.nftId)
-
+      // console.log(router.query.nftId)
+      const selectedNftItem = nfts[router.query.nftId]
+      // const selectedNftItem = nfts.find((nft) => nft.id === router.query.nftId)
+      console.log(selectedNftItem)
       setSelectedNft(selectedNftItem)
     })()
   }, [nftModule])
-
+  // console.log(selectedNft.metadata.image)
   const marketPlaceModule = useMemo(() => {
     if (!provider) return
 
@@ -67,18 +68,20 @@ const Nft = () => {
       }
     )
 
-    return sdk.getMarketplace(
-      '0xee0a517DA86E5E13b7BbcD36BB752D499C0eF06F'
-    )
+    return sdk.getNFTCollection('0xfd58fD1C9aC97224931EB17B5c1ae4c0904DA43B')
+    // return sdk.getMarketplace(
+    //   '0xee0a517DA86E5E13b7BbcD36BB752D499C0eF06F'
+    // )
   }, [provider])
 
   useEffect(() => {
     if (!marketPlaceModule) return
     ;(async () => {
-      setListings(await marketPlaceModule.getAllListings())
+      setListings(await marketPlaceModule.getAll())
     })()
   }, [marketPlaceModule])
-
+  // console.log(listings)
+  // selectedNft = selectedNftItem
   return (
     <div>
       <Header />

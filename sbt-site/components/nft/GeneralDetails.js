@@ -24,7 +24,7 @@ const GeneralDetails = ({ selectedNft }) => {
       <div className={style.infoContainer}>
         <div className={style.accent}>Columbia Fintech and BlockChain SBT</div>
         <div className={style.nftTitle}>{selectedNft?.name}</div>
-        <div className={style.description}>{selectedNft?.description}</div>
+        <div className={style.description}>{selectedNft?.metadata.description}</div>
         <div className={style.otherInfo}>
           <div className={style.ctaContainer}>
           </div>

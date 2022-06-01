@@ -15,7 +15,7 @@ const MakeOffer = ({ isListed, selectedNft, listings, marketPlaceModule }) => {
   const [enableButton, setEnableButton] = useState(false)
   // get nft id from url
   const nftId = useRouter().query.nftId
-  console.log(nftId)
+  // console.log(nftId)
   selectedMarketNft
   useEffect(() => {
     if (!selectedMarketNft || !selectedNft) return
@@ -42,10 +42,10 @@ const MakeOffer = ({ isListed, selectedNft, listings, marketPlaceModule }) => {
     
 
     // beginPurchase()
-    console.log(listingId, quantityDesired, module)
+    // console.log(listingId, quantityDesired, module)
     let address = window.ethereum.selectedAddress
-    console.log(address)
-    console.log(listingId, quantityDesired, module)
+    // console.log(address)
+    // console.log(listingId, quantityDesired, module)
     // module.sdk._providerOrSigner._address = address]
 
     toast.promise(module.transfer(address, listingId, quantityDesired), {
