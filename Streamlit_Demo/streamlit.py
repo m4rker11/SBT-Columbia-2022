@@ -1,33 +1,42 @@
+
+### MOCK STREAMLIT FRONTEND
+
+#This is a non-functional frontend to visually show how an NFT page may be formatted using streamlit
+
+
+#Imports including Image from PIL 
+
 import streamlit as st
-import glob 
 from PIL import Image
-import json
-# Creating image list from source for streamlit
 
-
-image_list = []
-for filename in glob.glob('WAAWImages1/*.png'): #assuming png
-    im=Image.open(filename)
-    image_list.append(im)
-
-
-# Page setting
+# Page setting for wide layout using .css file
 st.set_page_config(layout="wide")
 
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-# Data
-horses = ['American Dreaming 2017', 'American Pharoah 2015', 'Authentic 2020', 'California Chrome 2014', 'Country Horse 2019', 'Ill Have Another 2012', 'Justify 2018', 'Mandoloun 2021', 'Nyquist 2016', 'Orb 2013', 'Rich Strike 2022']
+# Demo notes:
+# 1. A functional streamlit page would read and use information provided by the json files we developed
+# 2. For presentation purposes, we used the "name" characteristic to show potential sidebar interactions and layout
 
+# For demo purposes, we used the horse names to be later used in the sidebar
+horses = ['American Dreaming 2017', 'American Pharoah 2015', 'Authentic 2020', 'California Chrome 2014', 'Country Horse 2019', 'Ill Have Another 2012', 'Justify 2018', 'Mandoloun 2021', 'Nyquist 2016', 'Orb 2013', 'Rich Strike 2022',
+'Aristides 1875', 'Barbaro 2006', 'Monarchos 2001', 'Ponder 1949', 'Majestic Prince 1969', 'Chateaugay 1963', 'Secretariat 1973', 'Donerail 1913', 'Dust commander 1970', 'Seattle Slew 1977', 'Sir Barton 1919', 'Gallant Fox 1930', 'Omaha 1935',
+'War Admiral 1937', 'Whirlaway 1941', 'Count Fleet 1943', 'Assault 1946', 'Citation 1948']
+
+
+# General title
 st.title("We Are All Winners")
 st.markdown("### The Kentucky Derby horse winners are meant to represent how we are all winners for getting through this bootcamp together. The SBTs are our parting gifts to our fellow classmates.")
 st.text(" \n")
 
+# Real NFT page link for demo
 
-url = "https://docs.streamlit.io/library/api-reference/text/st.markdown"
+url = "https://sbt-columbia-2022.vercel.app/"
 
-st.sidebar.markdown("# Available Horses for token")
+
+# Sidebar construction
+st.sidebar.markdown("# Available Horses for Token")
 st.sidebar.image('profile.png')
 
 
@@ -57,14 +66,15 @@ else:
         st.sidebar.write("HAPPY HORSIN' AROUND")
 
 # Team logo
-url = "https://docs.streamlit.io/library/api-reference/text/st.markdown"
 
 st.image('running-horses.png', width =1450)
 
+
+# Row layout to display each NFT image
 # Row A
 a1, a2, a3, a4, a5 = st.columns(5)
 a1.image(Image.open('We Are All Winners Images/Always Dreaming 2017.png'), caption = 'Always Dreaming 2017')
-a1.write("With possibly up to six starters, leading trainer Todd Pletcher won't lack for quantity in this year's Kentucky Derby. Always Dreaming's Florida Derby (G1) victory showed he has no lack of quality either. Winless in two summer juvenile starts, Always Dreaming returned to racing as a 3-year-old with an 11-1/2 length maiden victory at Tampa Bay Downs Jan. 25. With that and a March 4 Gulfstream Park allowance victory behind the horse, Pletcher decided to send him to the Florida Derby April 1. He handled the step up in class with ease, racing outside the leader Three Rules before sprinting away to a five length victory over State of Honor and Gunnevera. Bred by Santa Rosa Partners, Always Dreaming was a $350,000 purchase at the 2015 Keeneland September yearling sale for agent Steven Young. His owners include Brooklyn Boyz Stables, MeB Racing Stable, Teresa and Vinnie Viola, West Point Thoroughbreds, and Siena Farm. Always Dreaming is from the first crop of Bodemeister, runner-up to I'll Have Another in the 2012 Kentucky Derby. He is out of the grade III-winning In Excess mare Above Perfection, whose other progeny include the Spinaway Stakes (G1) winner Hot Dixie Chick.")
+a1.write("Always Dreaming broke well and settled just behind the early leader State of Honor with good position on the rail. After half a mile, jockey John R. Velazquez moved him to the outside of State of Honor and the two raced together into the far turn. When other horses then started to challenge for the lead, Always Dreaming quickly responded by drawing away and opening a lead of several lengths in the stretch. Longshot Lookin At Lee made a late run to finish second, but Always Dreaming was never threatened, winning by 2+3⁄4 lengths. ")
 a1.write("### Value : 10 ETH")
 a1.write("")
 
@@ -92,12 +102,12 @@ a5.write("")
 b1, b2, b3, b4, b5 = st.columns(5)
 
 b1.image(Image.open("We Are All Winners Images/I'll Have Another 2012.png"), caption = "I'll Have Another")
-b1.write("Canadian-owned I'll Have Another ran down Bodemeister in the final furlong Saturday tot been terrific")
+b1.write("Canadian-owned I’ll Have Another ran down Bodemeister in the final furlong Saturday to win the Kentucky Derby. 'He’s an amazing horse. I kept telling everybody, from the first time I met him, I knew he was the one. I knew he was good,' Gutierrez said. 'I said in an interview, even if they allowed me to pick from the whole rest of the field, I would have stayed with him, 100 percent, no doubt about it.' But a record crowd of 165,307 looking on didn’t know 15-1 shot I’ll Have Another had the goods until the 20-horse field turned for home. That’s when Gutierrez, who moved up between horses around the final turn, positioned his colt not far from the rail and set him down to run. I’ll Have Another, owned by J. Paul Reddam of Windsor, Ont., overhauled a tiring Bodemeister to win by 1 1-2 lengths.")
 b1.write("### Value : 5 ETH")
 b1.write("")
 
 b2.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
-b2.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+b2.write("Justify (foaled March 28, 2015) is an American Thoroughbred racehorse who is known for being the thirteenth winner of the American Triple Crown. He also was the first horse since Apollo in 1882 to win the Kentucky Derby without racing as a two-year-old. Justify first attracted attention with a win in his debut race on February 18, 2018. He followed up with two more victories, including the Grade One Santa Anita Derby that qualified him for the 2018 Kentucky Derby. Justify then won that race and the 2018 Preakness Stakes and 2018 Belmont Stakes to win the Triple Crown.")
 b2.write("### Value : 5 ETH")
 b2.write("")
 
@@ -107,7 +117,7 @@ b3.write("### Value : 5 ETH")
 b3.write("")
 
 b4.image(Image.open('We Are All Winners Images/Nyquist 2016.png'), caption = 'Nyquist 2016')
-b4.write("FINISH		RACE	GRADE	DISTANCE	SURFACE	DATE")
+b4.write("Nyquist is the second Derby winner to win the race as an undefeated two-year-old season champion. The 2016 Kentucky Derby, which Nyquist won by 1¼ lengths, was the horse's last win. Nyquist is a 5th generation descendant of Secretariat. He is a champion American Thoroughbred racehorse who won both the 2016 Kentucky Derby and 2015 Breeders' Cup Juvenile, only the second horse to complete the Juvenile-Derby double.[3] He became the eighth undefeated winner of the Kentucky Derby, and the first since Big Brown in 2008. He received the 2015 Eclipse Award for Champion Two-Year-Old. He is the second Kentucky Derby winner after Morvich to win the race while undefeated after winning Champion Two Year Old the year")
 b4.write("### Value : 5 ETH")
 b4.write("")
 
@@ -124,23 +134,23 @@ c1.write("Lawrin was an American thoroughbred racehorse owned by Herbert M. Wool
 c1.write("### Value : 5 ETH")
 c1.write("")
 
-c2.image(Image.open('We Are All Winners Images/Justify 2018.png'), caption = 'Justify 2018')
-c2.write("Racing in his third career start, which began at age 3, Justify lived up to anticipated hype in his stakes debut, capturing the $1 million Santa Anita Derby (G1)")
+c2.image(Image.open('We Are All Winners Images/Barbaro 2006.png'), caption = 'Barbaro 2006')
+c2.write("Barbaro is known for one of the largest margins of victory at the Kentucky Derby– 6 ½ lengths: The horses that shared the fifth-largest winning margin had very different tales to tell. Barbaro started the Derby as second favorite and maintained his unbeaten record in the Run for the Roses with his outstanding victory.")
 c2.write("### Value : 5 ETH")
 c2.write("")
 
-c3.image(Image.open('We Are All Winners Images/Mandoloun 2021.png'), caption = 'Mandoloun 2021')
-c3.write("Mandaloun is a bay colt by Into Mischief and out of Brooch, who is by Empire Maker. A strong family pedigree and led by even more talent with his human connections. Conditioner Brad Cox and jockey Florent Geroux lead the Juddmonte Farms, Inc. Kentucky Derby hopeful's path towards his start on the First Saturday in May.")
+c3.image(Image.open('We Are All Winners Images/Monarchos 2001.png'), caption = 'Monarchos 2001')
+c3.write("In 2001, Monarchos won the Kentucky Derby. He was only the second horse, after Secretariat, to run the Derby in under 2:00. The gray son of Maria's Mon and Regal Band by Dixieland Band won four races with a second and three thirds in 10 starts from 2000-2002 and earned more than $1.72 million. Monarchos' greatest triumph came in the 2001 Derby at Churchill Downs, where he was bumped by Point Given at the start and came from the outside at the stretch to catch Congaree and win by 4 3/4 lengths over Invisible Ink with Congaree third. His time of 1:59.97 with Jorge Chavez aboard was just behind the 1973 Triple Crown champion's record 1:59.40.")
 c3.write("### Value : 5 ETH")
 c3.write("")
 
-c4.image(Image.open('We Are All Winners Images/Nyquist 2016.png'), caption = 'Nyquist 2016')
-c4.write("FINISH		RACE	GRADE	DISTANCE	SURFACE	DATE")
+c4.image(Image.open('We Are All Winners Images/Ponder 1949.png'), caption = 'Ponder 1949')
+c4.write("The American Derby was perhaps his most shining performance. Victory came as it usually does to him. He let the pack take off in full cry, and when he got ready with his late run, nothing could stay in front of him. But this race he won in what may be called the hard way. He was, to all appearances, securely boxed in on the rail as the field rounded the far turn. But he seems to be an easy colt to handle during a race, and Jockey Steve Brooks was able to take him back and send him around the outside. Once clear, he took off with the rush that had gained the Kentucky Derby for him, and won by 2 1/4 lengths drawing away.")
 c4.write("### Value : 5 ETH")
 c4.write("")
 
-c5.image(Image.open('We Are All Winners Images/Orb 2013.png'), caption = 'Orb 2013')
-c5.write("The revelers were sloppy, the grounds were sloppy and the racetrack was sloppy, but Orb apparently did not mind much, and afterward his owners and trainer could not have been happier with the way the day played out.The late-closing Orb, ridden by the red-hot Joel Rosario, found a way to win despite his lack of experience on a wet track, trudging to victory in the 139th running of the Kentucky Derby on Saturday at Churchill Downs.")
+c5.image(Image.open('We Are All Winners Images/Majestic Prince 1969.png'), caption = 'Majestic Prince 1969')
+c5.write("Given his regal name by McMahon, Majestic Prince was turned over to trainer Johnny Longden, who was racetrack nobility himself. In 1966, Longden had retired as the sport's all-time winningest jockey. When he made it to the racetrack in November of 1968, Majestic Prince ran like his name by winning his two starts at 2. He triumphed in his career debut at Bay Meadows by 2 ¾ lengths but prevailed by only a nose at Santa Anita in his second start. At 3, he became dominant. He began his 1969 campaign by reeling off wins in the Los Feliz, San Vicente and San Jacinto Stakes and then cemented his status as the West’s best 3-year-old by romping to an scintillating eight-length victory under regular rider Bill Hartack in the Santa Anita Derby over what was described in Sports Illustrated as “nine hopelessly outclassed rivals.” In an era marked by short rest between races, he was then shipped to Kentucky and just a week before the Kentucky Derby notched a six-length win in the Stepping Stone Purse in the stakes-record time of 1:21 3/5 for seven furlongs.")
 c5.write("### Value : 5 ETH")
 c5.write("")
 
@@ -148,7 +158,7 @@ c5.write("")
 # Row D 
 d1, d2, d3, d4, d5 = st.columns(5)
 d1.image(Image.open('We Are All Winners Images/Rich Strike 2022.png'), caption = 'Rich Strike 2022')
-d1.write("Kentucky Derby winner Rich Strike returned to the Churchill Downs work tab with a swift half-mile move in 47.2 seconds in preparation for the $1.5 million Belmont Stakes. The 80-1 upset winner of this year's $3 million Kentucky Derby presented by Woodford Reserve breezed with rider Gabe Lagunes in the saddle through an opening quarter-mile fraction of 22.8 seconds and galloped out five furlongs in 1:00.6.")
+d1.write("Rich Strike broke poorly from the outside post position and raced well back. He was in eighteenth place after the first half mile, seventeen lengths behind the leaders. He began to make up ground on the final turn, while shifting out four wide. Rich Strike was only 4+3⁄4 lengths behind leader Epicenter at the one mile mark but was in heavy traffic. In the stretch, he found racing room near the rail, weaved around a tiring Messier and then launched a sustained drive to the inside of Epicenter, drawing clear in the final strides to win by three-quarters of a length, with an 80-1 Longshot upset.")
 d1.write("### Value : 5 ETH")
 d1.write("")
 
@@ -169,7 +179,7 @@ d4.write("### Value : 5 ETH")
 d4.write("")
 
 d5.image(Image.open('We Are All Winners Images/Donerail 1913.png'), caption = 'Donerail 1913')
-d5.write("Donerail was the biggest upset in Derby history, he ran down the favorite, Ten Point on the home stretch and clocked the fastest time in history. Donerail went off at a 91-1 longshot to win the Kentucky Derby. A $2 bet provided a payout of $184.90. Donerail was, by far, the biggest long-shot to ever win the Derby. Bred, owned and trained by Tom P. Hayes of Scott County, who named the colt for a settlement on the Fayette-Scott County line that no longer exists.")
+d5.write("Donerail was the biggest upset in Derby history, he ran down the favorite, Ten Point on the home stretch and clocked the fastest time in history. Donerail went off at a 91-1 longshot to win the Kentucky Derby. Donerail was, by far, the biggest long-shot to ever win the Derby. Bred, owned and trained by Tom P. Hayes of Scott County, who named the colt for a settlement on the Fayette-Scott County line that no longer exists")
 d5.write("### Value : 5 ETH")
 d5.write("")
 
@@ -290,37 +300,6 @@ h5.image(Image.open('We Are All Winners Images/Old Rosebud 1914.png'), caption =
 h5.write("Old Rosebud is known for one of the largest margins of victory at the Kentucky Derby– 8 lengths: The first of four horses to win the Kentucky Derby by eight lengths, Old Rosebud is one of the most remarkable and arguably most underappreciated horses in the U.S. Thoroughbred racing history. The Derby, won in track record time, was his 11th consecutive victory. An injury in his next start looked to have ended the gelding’s career, but he returned nearly three years later and won 15 of his 21 starts as a 7-year-old, including many of the major handicap prizes. He was still in training as an 11-year-old when he was euthanized after another injury.")
 h5.write("### Value : 5 ETH")
 h5.write("")
-
-
-# Row I
-
-i1, i2, i3, i4, i5 = st.columns(5)
-i1.image(Image.open('We Are All Winners Images/Rich Strike 2022.png'), caption = 'Rich Strike 2022')
-i1.write("Kentucky Derby winner Rich Strike returned to the Churchill Downs work tab with a swift half-mile move in 47.2 seconds in preparation for the $1.5 million Belmont Stakes. The 80-1 upset winner of this year's $3 million Kentucky Derby presented by Woodford Reserve breezed with rider Gabe Lagunes in the saddle through an opening quarter-mile fraction of 22.8 seconds and galloped out five furlongs in 1:00.6.")
-i1.write("### Value : 5 ETH")
-i1.write("")
-
-i2.image(Image.open('We Are All Winners Images/Lawrin 1938.png'), caption = 'Lawrin 1938')
-i2.write("Lawrin was an American thoroughbred racehorse owned by Herbert M. Woolf who won the 1938 Kentucky Derby. He was the son of Insco. He is the only Kansas-bred winner of the Kentucky Derby and the first Kentucky Derby winner ridden by the great jockey Eddie Arcaro.")
-i2.write("### Value : 5 ETH")
-i2.write("")
-
-i3.image(Image.open('We Are All Winners Images/Hoop Jr. 1945.png'), caption = 'Hoop Jr. 1945')
-i3.write("In the 1945 Kentucky Derby, Eddie Arcaro rode Hoop Jr. over a muddy track against a field of 15. He took the lead going past the grandstand the first time and kept increasing it until he won by six lengths against Pot o' Luck and Darby Dieppe. Hooper had won the Kentucky Derby with his first race horse.")
-i3.write("### Value : 5 ETH")
-i3.write("")
-
-i4.image(Image.open('We Are All Winners Images/Hill Gail 1952.png'), caption = 'Hill Grail 1952')
-i4.write("Hill Gail was perhaps a better horse than modern memory would make him, for he was speedy enough in the spring of his 3-year-old season to give the good older sprinter Dark Peter 10 pounds and a beating over 6 furlongs and stayed well enough to capture the Kentucky Derby in time just one-fifth of a second slower than Whirlaway's track record. However, he was handicapped by two things: an erratic temperament inherited from his dam, Jane Gail (a mare that trainer Jimmy Jones described as “a well-authenticated b----”), and a buildup of calcium deposits in his ankles that sidelined him after his Kentucky Derby win.")
-i4.write("### Value : 5 ETH")
-i4.write("")
-
-i5.image(Image.open('We Are All Winners Images/Iron Liege 1957.png'), caption = 'Iron Liege 1957')
-i5.write("1957's running of the Kentucky Derby is remembered for two reasons. First, it is one of the best horse fields, with some of the most athletic Thoroughbreds racing against one another – including two hall of fame horse inductees, Bold Ruler and Round Table. Second, it was one of the most dramatic finishes in Kentucky Derby race history. Coming down the finishing stretch, Kentucky Derby contender Gallant Man, ridden by hall of fame jockey Bill Shoemaker, was neck-and-neck with fellow contender Iron Leige, ridden by jockey Bill Hartack. As the two horses were racing towards the finish line, Bill Shoemaker on Gallant Man misjudged the finish line pole and stood up to celebrate the race before it was actually over. Shoemaker’s haste to rejoice his 'victory' caused his horse Gallant Man to pull up and slow down, and Iron Leige won the Kentucky Derby by just a nose.")
-i5.write("### Value : 5 ETH")
-i5.write("")
-
-
 
 
 
