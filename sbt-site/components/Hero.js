@@ -25,7 +25,7 @@ const Hero = () => {
         <div className={style.contentWrapper}>
           <div className={style.copyContainer}>
             <div className={style.title}>
-              CONGRAGULATIONS! We did it. 
+              CONGRATULATIONS! We did it. 
             </div>
             <div className={style.description}>
               We are now done with this bootcamp!

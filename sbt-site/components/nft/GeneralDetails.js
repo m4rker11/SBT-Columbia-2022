@@ -29,7 +29,7 @@ const GeneralDetails = ({ selectedNft }) => {
           <div className={style.ctaContainer}>
           </div>
           <div className={style.ownedBy}>
-            Owned by <span className={style.accent}>Team 4</span>
+            Owned by <span className={style.accent}>{selectedNft?.owner}</span>
           </div>
         </div>
       </div> 

@@ -49,9 +49,9 @@ const MakeOffer = ({ isListed, selectedNft, listings, marketPlaceModule }) => {
     // module.sdk._providerOrSigner._address = address]
 
     toast.promise(module.transfer(address, listingId, quantityDesired), {
-      loading: '`Transaction is being signed, please wait...',
+      loading: 'Transaction is being signed, please wait...',
       success: 'Your SBT has been sent to your wallet, you can transfer it until the end of the day to the desired location',
-      error: 'This SBT has already been claimed, please ick another one ~~HURRY~~',
+      error: 'This SBT has already been claimed, please pick another one ~~HURRY~~',
     });
     // try {
     //   await module.transfer(address, listingId, quantityDesired)
@@ -92,7 +92,6 @@ const MakeOffer = ({ isListed, selectedNft, listings, marketPlaceModule }) => {
             <div className={style.buttonText}>Claim</div>
             
           </div>
-          Don't click twice
         </>
       {/* ) : (
         <div className={`${style.button} bg-[#2081e2] hover:bg-[#42a0ff]`}>
