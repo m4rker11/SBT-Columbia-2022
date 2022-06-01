@@ -19,7 +19,7 @@ const client = sanityClient({
   useCdn: false,
 })
 const style = {
-  bannerImageContainer: `h-[35vh] w-screen overflow-hidden flex justify-center items-center`,
+  bannerImageContainer: `h-[55vh] w-screen overflow-hidden flex justify-center items-center`,
   bannerImage: `w-full object-cover`,
   infoContainer: `w-screen px-4`,
   midRow: `w-full flex justify-center text-white`,
@@ -65,10 +65,16 @@ const Collection = () => {
     if (!nftModule) return
     (async () => {
       const nfts = await nftModule.getAll()
+      console.log(nfts)
       console.log("gettingNfts")
       setNfts(nfts)
     })()
   }, [nftModule])
+
+      // nftModule.getAll().then(nfts => {setNfts(nfts)})
+      // console.log(nfts)
+      // console.log("gettingNfts")
+      // setNfts(nfts)
 
   const marketPlaceModule = useMemo(() => {
     if (!provider) return
@@ -109,6 +115,7 @@ const Collection = () => {
 
     const collectionData = await sanityClient.fetch(query)
 
+    // console.log(collectionData)
     
 
     // the query returns 1 object inside of an array
@@ -121,7 +128,7 @@ const Collection = () => {
   }, [collectionId])
 
   // console.log(collection, '🔥')
-  console.log(nfts, '🔥')
+  // console.log(nfts, '🔥')
   // console.log(router.query.collectionId)
   return (
     <div className="overflow-hidden">

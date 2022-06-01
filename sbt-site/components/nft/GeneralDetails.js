@@ -7,7 +7,7 @@ const style = {
   ownedBy: `text-[#8a939b] mr-4`,
   likes: `flex items-center text-[#8a939b]`,
   likeIcon: `mr-1`,
-  description: `text-lg text-[#8a939b]`,
+  description: `h-66 text-lg text-[#8a939b]`,
   actionButtonsContainer: `w-44`,
   ctaContainer: `flex`,
   accentedButton: ` relative text-lg font-semibold px-8 py-2 bg-[#2181e2] rounded-lg mr-5 text-white hover:bg-[#42a0ff] cursor-pointer`,

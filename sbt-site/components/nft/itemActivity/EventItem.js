@@ -18,7 +18,7 @@ const EventItem = ({ event }) => {
         <div className={style.eventIcon}>
           <BsFillCartFill />
         </div>
-        <div className={style.eventName}>Sale</div>
+        <div className={style.eventName}>Drop</div>
       </div>
       <div className={`${style.eventPrice} flex-[2]`}>
         {/* <img
