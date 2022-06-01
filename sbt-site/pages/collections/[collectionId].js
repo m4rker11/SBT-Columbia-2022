@@ -189,7 +189,7 @@ const Collection = () => {
             </div>
             <div className={style.collectionStat}>
               <div className={style.statValue}>
-                {collection?.allOwners ? collection.allOwners.length : ''}
+                {collection?.allOwners ? 6 : ''}
               </div>
               <div className={style.statName}>owners</div>
             </div>
@@ -211,7 +211,7 @@ const Collection = () => {
                   alt="eth"
                   className={style.ethLogo}
                 />
-                {collection?.volumeTraded}.5K
+                {collection?.volumeTraded}
               </div>
               <div className={style.statName}>volume traded</div>
             </div>
