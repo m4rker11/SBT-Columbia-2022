@@ -1,0 +1,27 @@
+{
+    "name": "Northern Dancer",
+    "description": "Northern Dancer was the first Canadian-born horse to win the Kentucky Derby. He was bred on the Oshawa, Ontario, farm of his owner, E.P. Taylor, one of Canada’s wealthiest men and the chairman of the Ontario Jockey Club. As a two-year-old, the colt won seven of nine races and had a winning streak of eight races leading up to the 1964 Kentucky Derby.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/15.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Chestnut"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1964"
+        },
+        {
+            "trait_type": "Number",
+            "value": "7"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Bill Hartack"
+        }
+    ] 
+}

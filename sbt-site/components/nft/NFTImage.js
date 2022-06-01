@@ -20,8 +20,8 @@ const NFTImage = ({ selectedNft }) => {
         </div>
       </div>
       <div>
-        {console.log(selectedNft, '🎆')}
-        <img src={selectedNft?.image} />
+        {/* {console.log(selectedNft, '🎆')} */}
+        <img src={selectedNft?.metadata.image} />
       </div>
     </div>
   )

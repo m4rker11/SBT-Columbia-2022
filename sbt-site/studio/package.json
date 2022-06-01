@@ -4,10 +4,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "Rafeh Qazi <qazi@cleverprogrammer.com>",
+  "author": "Mark Zarutin",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
+    "test": "sanity check",
     "build": "sanity build"
   },
   "keywords": [

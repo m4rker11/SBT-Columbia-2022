@@ -1,0 +1,27 @@
+{
+    "name": "Gallant Fox",
+    "description": "Winning the Triple Crown is the most coveted accomplishment in the sport of horse racing. It takes a super horse to sweep the Kentucky Derby, the Preakness Stakes, and the Belmont Stakes because of the proximity of their dates and because the horses running in them are the best of the best. Though Sir Barton was the first horse to win all three in 1919, the term “Triple Crown” wasn’t around until Gallant Fox won it in 1930.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/38.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Umber"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1930"
+        },
+        {
+            "trait_type": "Number",
+            "value": "2"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Earl Sande"
+        }
+    ] 
+}

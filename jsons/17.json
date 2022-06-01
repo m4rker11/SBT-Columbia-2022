@@ -1,0 +1,27 @@
+{
+    "name": "Genuine Risk",
+    "description": "Genuine Risk took the roses in 1980 and is one of only three fillies to win the Kentucky Derby. The others were Regret in 1915 and Winning Colors in 1988.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/17.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Caramel"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1980"
+        },
+        {
+            "trait_type": "Number",
+            "value": "8"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "LeRoy Jolley"
+        }
+    ] 
+}

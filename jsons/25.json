@@ -1,0 +1,27 @@
+{
+    "name": "Mine That Bird",
+    "description": "Mine That Bird is known for one of the largest margins of victory at the Kentucky Derby– 6 ½ lengths: He has the fifth-largest winning margin. Mine That Bird was the classic rags-to-riches tale. The $9,000 purchase ran well as a 2-year-old in Canada but failed in the Breeders’ Cup Juvenile and, after switching stables to Chip Woolley, he was driven across the country after finishing fourth in the Sunland Derby.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/25.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Chestnut"
+        },
+        {
+            "trait_type":"Year",
+            "value": "2009"
+        },
+        {
+            "trait_type": "Number",
+            "value": "8"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Calvin Borel"
+        }
+    ] 
+}

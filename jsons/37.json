@@ -1,0 +1,27 @@
+{
+    "name": "Winning Colors",
+    "description": "Female Winner",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/37.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Umber"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1988"
+        },
+        {
+            "trait_type": "Number",
+            "value": "8"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Gary Stevens"
+        }
+    ] 
+}

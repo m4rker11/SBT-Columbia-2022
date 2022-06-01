@@ -1,0 +1,27 @@
+{
+    "name": "Dust Commander",
+    "description": "Hunter S. Thompson's seminal 1970 essay The Kentucky Derby is Decadent and Depraved detailed the running of the Derby won by Dust Commander. The name Dust Commander is derived from his dam, Dust Storm, and his sire, Bold Commander.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/18.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Caramel"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1970"
+        },
+        {
+            "trait_type": "Number",
+            "value": "3"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Mike Manganello"
+        }
+    ] 
+}

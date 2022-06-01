@@ -1,0 +1,27 @@
+{
+    "name": "Smarty Jones",
+    "description": "Smarty Jones won the Kentucky Derby in 2004 (as well as the Preakness Stakes). This horse ended a decades-long wait when he became the first undefeated horse to win the Derby since Seattle Slew's 1977 win. The jockey, Stewart Elliott, became the first jockey to win a Kentucky Derby debut since Ronnie Franklin won with Spectacular Bid in the 1979 Derby. On a rainy May 1, 2004, Smarty Jones entered the Kentucky Derby, where he became the post time favorite, and won. Servis and Elliott became the first trainer/jockey combination in 25 years to win the Kentucky Derby in their debut appearance.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/41.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Chocolate"
+        },
+        {
+            "trait_type":"Year",
+            "value": "2004"
+        },
+        {
+            "trait_type": "Number",
+            "value": "1"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Stewart Elliott"
+        }
+    ] 
+}

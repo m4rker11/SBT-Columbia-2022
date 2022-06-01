@@ -1,0 +1,27 @@
+{
+    "name": "Omaha",
+    "description": "Omaha, (foaled 1932), American racehorse (Thoroughbred) who in 1935 became the third winner of the American Triple Crown—the Kentucky Derby, the Preakness Stakes, and the Belmont Stakes. He was sired by Gallant Fox (winner of the Triple Crown in 1930) and was the only Triple Crown winner sired by a Triple Crown winner.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/29.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Umber"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1935"
+        },
+        {
+            "trait_type": "Number",
+            "value": "11"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "William Saunders"
+        }
+    ] 
+}

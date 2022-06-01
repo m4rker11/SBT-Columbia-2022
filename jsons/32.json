@@ -1,0 +1,27 @@
+{
+    "name": "Old Rosebud",
+    "description": "Old Rosebud is known for one of the largest margins of victory at the Kentucky Derby– 8 lengths: The first of four horses to win the Kentucky Derby by eight lengths, Old Rosebud is one of the most remarkable and arguably most underappreciated horses in the U.S. Thoroughbred racing history. The Derby, won in track record time, was his 11th consecutive victory. An injury in his next start looked to have ended the gelding’s career, but he returned nearly three years later and won 15 of his 21 starts as a 7-year-old, including many of the major handicap prizes. He was still in training as an 11-year-old when he was euthanized after another injury.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/32.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Umber"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1914"
+        },
+        {
+            "trait_type": "Number",
+            "value": "10"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "John McCabe"
+        }
+    ] 
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Needles",
+    "description": "Needles set plenty of the milestones that future Florida-breds chase to this day. He was the first horse born in the Sunshine State to win a national year end championship when he was named co-champion 2-year-old of 1955. A year later, he won the Kentucky Derby and Belmont Stakes to bag the first two classic races by a Florida-bred. Less heralded, but just as important, is the effect Needles' success had on shaping central Florida into a hub for Thoroughbred breeding and sales. If not for Needles and his on-track success, the graveyard where he resides might have never existed.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/27.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Umber"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1956"
+        },
+        {
+            "trait_type": "Number",
+            "value": "3"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "David Erb"
+        }
+    ] 
+}

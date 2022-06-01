@@ -1,0 +1,27 @@
+{
+    "name": "Whirlaway",
+    "description": "Whirlaway was a champion American Thoroughbred racehorse who is the fifth winner of the American Triple Crown. He also won the Travers Stakes after his Triple Crown sweep to become the first and only horse to win all four races.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/35.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Chestnut"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1941"
+        },
+        {
+            "trait_type": "Number",
+            "value": "4"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Eddie Acaro"
+        }
+    ] 
+}

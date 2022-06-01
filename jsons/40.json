@@ -1,0 +1,27 @@
+{
+    "name": "Iron Liege",
+    "description": "1957's running of the Kentucky Derby is remembered for two reasons. First, it is one of the best horse fields, with some of the most athletic Thoroughbreds racing against one another – including two hall of fame horse inductees, Bold Ruler and Round Table. Second, it was one of the most dramatic finishes in Kentucky Derby race history. Coming down the finishing stretch, Kentucky Derby contender Gallant Man, ridden by hall of fame jockey Bill Shoemaker, was neck-and-neck with fellow contender Iron Leige, ridden by jockey Bill Hartack.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/40.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Umber"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1957"
+        },
+        {
+            "trait_type": "Number",
+            "value": "1"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Bill Hartack"
+        }
+    ] 
+}

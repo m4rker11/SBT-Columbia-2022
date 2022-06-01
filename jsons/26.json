@@ -1,0 +1,27 @@
+{
+    "name": "Kingman",
+    "description": "Black American Jockey",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/26.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Walnut"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1891"
+        },
+        {
+            "trait_type": "Number",
+            "value": "1"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Isaac Murphy"
+        }
+    ] 
+}

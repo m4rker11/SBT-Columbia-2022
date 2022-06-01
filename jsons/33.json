@@ -1,0 +1,27 @@
+{
+    "name": "Affirmed",
+    "description": "The 1978 Kentucky Derby was the 104th running of the Kentucky Derby. Affirmed, under jockey Steve Cauthen, won the race by 1 1/2 lengths over Alydar. Believe It finished 3rd, 1 1/4 lengths behind Alydar, and 30-1 longshot Darby Creek Road finished 4th. In 1978, Affirmed became the 11th winner of the Triple Crown of American horse racing—the Kentucky Derby, the Preakness Stakes, and the Belmont Stakes.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/33.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Caramel"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1978"
+        },
+        {
+            "trait_type": "Number",
+            "value": "2"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Steve Cauthen"
+        }
+    ] 
+}

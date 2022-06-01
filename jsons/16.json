@@ -1,0 +1,27 @@
+{
+    "name": "Hill Gail",
+    "description": "Hill Gail was perhaps a better horse than modern memory would make him, for he was speedy enough in the spring of his 3-year-old season to give the good older sprinter Dark Peter 10 pounds and a beating over 6 furlongs and stayed well enough to capture the Kentucky Derby in time just one-fifth of a second slower than Whirlaway's track record.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZXVxu2CNa9UKW1PCEHDP85skuEh4Jes4f5BC2ZJFHkx/16.png",
+    "attributes": [
+        {
+            "trait_type": "Color",
+            "value": "Walnut"
+        },
+        {
+            "trait_type":"Year",
+            "value": "1952"
+        },
+        {
+            "trait_type": "Number",
+            "value": "6"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Not-Smile"
+        },
+        {
+            "trait_type": "Jockey",
+            "value": "Eddie Arcaro"
+        }
+    ] 
+}

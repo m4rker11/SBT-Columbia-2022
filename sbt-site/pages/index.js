@@ -3,9 +3,17 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import { useWeb3 } from '@3rdweb/hooks'
 import { useEffect } from 'react'
-import { client } from '../lib/sanityClient'
-import toast, { Toaster } from 'react-hot-toast'
 
+import toast, { Toaster } from 'react-hot-toast'
+import sanityClient from '@sanity/client'
+const client = sanityClient({
+  projectId: '56wynask',
+  dataset: 'production',
+  apiVersion: '2021-03-25',
+  token:
+    'skDhgc6KBzOJCn9zEzleh2KFEboQztHUkJXb6z52suRnzZyMLZ3JLMAMNbK8yeIpzaXaNQ9tUMXEuWhVlK9Sdu06Hfh0pMingV8HV61cojpBphnt7wl9cx2ndxtGywYIBhVgu0K1OMYA0KzacZdc5JvF2rkKPjPpWsyyQh2GQnpOtTIoOYEQ',  
+  useCdn: false,
+})
 const style = {
   wrapper: ``,
   walletConnectWrapper: `flex flex-col justify-center items-center h-screen w-screen bg-[#3b3d42] `,
@@ -15,7 +23,7 @@ const style = {
 
 export default function Home() {
   const { address, connectWallet } = useWeb3()
-  console.log(address)
+  // console.log(address)
 
   const welcomeUser = (userName, toastHandler = toast) => {
     toastHandler.success(
@@ -60,14 +68,14 @@ export default function Home() {
             onClick={
               async () =>{try { await window.ethereum.request({ method: 'wallet_addEthereumChain',
                 params: [{
-                            chainId: '0x89',
-                            chainName: 'Matic Mainnet',
+                            chainId: '0x13881',
+                            chainName: 'Mumbai Testnet',
                             nativeCurrency: {
                                 name: 'MATIC',
                                 symbol: 'MATIC',
                                 decimals: 18
                             },
-                            rpcUrls: ['https://polygon-rpc.com/'],
+                            rpcUrls: [' https://rpc-mumbai.maticvigil.com'],
                             blockExplorerUrls: ['https://polygonscan.com/']
                         }]});
               } catch (e) {
