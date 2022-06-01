@@ -49,13 +49,13 @@ const Collection = () => {
   const [listings, setListings] = useState([])
 
   //
-  collectionId = "0xfd58fD1C9aC97224931EB17B5c1ae4c0904DA43B"
+  collectionId = "0xb78f127b5C48d9351BB7da3A6D6A8cF6a948b23B"
   const nftModule = useMemo(() => {
     if (!provider) return
 
     const sdk = new ThirdwebSDK(
       provider.getSigner(),
-      'https://polygon-mumbai.g.alchemy.com/v2/npmkfPpuARktsK4CJgwVB0jDs64oD_g6'
+      'https://polygon-mumbai.g.alchemy.com/v2/T7UdELJf15lGilDVovxwjenxHord7EpX'
     )
     return sdk.getNFTModule(collectionId)
   }, [provider])
@@ -75,7 +75,7 @@ const Collection = () => {
 
     const sdk = new ThirdwebSDK(
       provider.getSigner(),
-      'https://polygon-mumbai.g.alchemy.com/v2/npmkfPpuARktsK4CJgwVB0jDs64oD_g6'
+      'https://polygon-mumbai.g.alchemy.com/v2/T7UdELJf15lGilDVovxwjenxHord7EpX'
     )
     return sdk.getMarketplaceModule(
       '0xee0a517DA86E5E13b7BbcD36BB752D499C0eF06F' // MARKETPLACE ADDRESS

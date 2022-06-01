@@ -38,7 +38,7 @@ const Header = () => {
         />
       </div>
       <div className={style.headerItems}>
-        <Link href="/collections/0xfd58fD1C9aC97224931EB17B5c1ae4c0904DA43B">
+        <Link href="/collections/0xb78f127b5C48d9351BB7da3A6D6A8cF6a948b23B">
           <div className={style.headerItem}> The Collection </div>
         </Link>
         <button onClick={() => toast.success(`This is limited time so this \nsite will self destruct in\n${

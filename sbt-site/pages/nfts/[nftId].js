@@ -29,7 +29,7 @@ const Nft = () => {
 
     const sdk = ThirdwebSDK.fromPrivateKey("efad97be8131aa6e125f59094673e2c70c4c9260577ee70954493ccddccdd351",'mumbai',
       // provider.getSigner(),
-      // 'https://polygon-mumbai.g.alchemy.com/v2/npmkfPpuARktsK4CJgwVB0jDs64oD_g6'
+      // 'https://polygon-mumbai.g.alchemy.com/v2/T7UdELJf15lGilDVovxwjenxHord7EpX'
       
       {
         gassless: {
@@ -37,7 +37,7 @@ const Nft = () => {
         }
       }
       )
-    return sdk.getNFTCollection('0xfd58fD1C9aC97224931EB17B5c1ae4c0904DA43B')
+    return sdk.getNFTCollection('0xb78f127b5C48d9351BB7da3A6D6A8cF6a948b23B')
   }, [provider])
 
   // get all NFTs in the collection
@@ -58,7 +58,7 @@ const Nft = () => {
 
     const sdk = new ThirdwebSDK(
       // provider.getSigner(),
-      // 'https://polygon-mumbai.g.alchemy.com/v2/npmkfPpuARktsK4CJgwVB0jDs64oD_g6',
+      // 'https://polygon-mumbai.g.alchemy.com/v2/T7UdELJf15lGilDVovxwjenxHord7EpX',
       'mumbai',{
         gassless: {
           openzeppelin: {
@@ -68,7 +68,7 @@ const Nft = () => {
       }
     )
 
-    return sdk.getNFTCollection('0xfd58fD1C9aC97224931EB17B5c1ae4c0904DA43B')
+    return sdk.getNFTCollection('0xb78f127b5C48d9351BB7da3A6D6A8cF6a948b23B')
     // return sdk.getMarketplace(
     //   '0xee0a517DA86E5E13b7BbcD36BB752D499C0eF06F'
     // )

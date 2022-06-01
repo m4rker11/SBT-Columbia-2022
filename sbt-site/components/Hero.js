@@ -33,7 +33,7 @@ const Hero = () => {
               <br/>of our journey we got you a little
             </div>
             <div className={style.ctaContainer}>
-            <Link href="/collections/0xfd58fD1C9aC97224931EB17B5c1ae4c0904DA43B">
+            <Link href="/collections/0xb78f127b5C48d9351BB7da3A6D6A8cF6a948b23B">
               <button className={style.accentedButton}>Something</button>
             </Link>
             </div>
